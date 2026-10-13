@@ -1,10 +1,10 @@
 #include<stdio.h>
 int fibo(int a,int b,int n){
-    int c;
+    int next;
     printf("%d",a);
-    c=a+b;
+    next=a+b;
     a=b;
-    b=c;
+    b=next;
     if (n==1){
         return 0;
     }else{
