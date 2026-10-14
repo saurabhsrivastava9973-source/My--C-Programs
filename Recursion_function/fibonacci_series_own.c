@@ -9,8 +9,8 @@ int fibo(int a,int b,int n){
         return 0;
     }else{
         printf(",");
-        return fibo(a,b,n-1); 
-    }   
+        return fibo(a,b,n-1);  
+    }
 }
 int main(){
     int n,a=0,b=1;
