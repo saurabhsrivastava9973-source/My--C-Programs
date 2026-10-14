@@ -18,7 +18,7 @@ float k_to_f(float temp){ //6//
     return ((temp-273.15)*(9.00/5.00)+32);
 }
 int main(){
-    printf("-=-=-=-=XXX Welcome To Temerature Calculator XXX=-=-=-=-\n");
+    printf("-=-=-=-=XXX Welcome To Temperature Calculator XXX=-=-=-=-\n");
     float temp,ans;
     char unit,cho;
     printf("Temperature's Unit= ");
