@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int elements,n,temp;
-    printf("Enter a no. oF Elements= ");
+    printf("Enter a no. of Elements= ");
     scanf("%d",&elements);
     int array1[elements],array2[elements];
     
@@ -14,7 +14,7 @@ int main(){
     for(int i=(elements-1)-j,j=0;j<elements;i--,j++){
         array2[j]=array1[i];
     }
-    printf("{");
+    printf("1st Array:- {");
     for(int i=0;i<elements;i++){
         
         if(i==elements-1){
@@ -25,9 +25,9 @@ int main(){
             printf(",");
         }
     }
-    printf("}");
+    printf("}\n");
 
-    printf("{");
+    printf("2nd Array:- {");
     for(int i=0;i<elements;i++){
         
         if(i==elements-1){
@@ -38,6 +38,6 @@ int main(){
             printf(",");
         }
     }
-    printf("}");
+    printf("}\n");
 return 0;
 }
