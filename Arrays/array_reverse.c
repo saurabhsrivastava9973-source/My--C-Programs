@@ -27,7 +27,7 @@ int main(){
     }
     printf("}\n");
 
-    printf("2nd Array:- {");
+    printf("Reversed Array:- {");
     for(int i=0;i<elements;i++){
         
         if(i==elements-1){
