@@ -24,4 +24,6 @@ To compile and run any of these C programs on your computer, ensure you have a C
    ```bash
    gcc filename.c -o program
    ```
-   
+4. **Run the compiled executable:**
+   - On Windows: `program.exe`
+   - On Linux/macOS: `./program`
