@@ -1,9 +1,19 @@
-# Compiled C executables
+# Ignore all compiled files without an extension (macOS C binaries)
+*
+# Keep directory tree accessible
+!*/
+# Keep all C source, headers, Markdown, and git configuration files
+!*.c
+!*.h
+!*.md
+!.gitignore
+!.gitattributes
+
+# macOS system and debug artifacts
+*.dSYM/
+.DS_Store
+
+# Common C compile extensions if used
 *.out
 *.o
 *.exe
-a.out
-
-# macOS debug folders and system files
-*.dSYM/
-.DS_Store
