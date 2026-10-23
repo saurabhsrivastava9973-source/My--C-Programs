@@ -41,9 +41,9 @@ int main(){
 
     printf("New Partition Array;- {");
 
-    for(int i=0;i<elements-1;i++){
+    for(int i=0;i<elements;i++){
 
-        if(i!=elements){
+        if(i!=elements-1){
 
             printf("%d",arrays[i]);
             printf(",");

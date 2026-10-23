@@ -16,4 +16,4 @@
 # Common C compile extensions if used
 *.out
 *.o
-*.exe
+.≤?
