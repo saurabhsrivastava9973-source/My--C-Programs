@@ -19,11 +19,15 @@ int main(){
     if (delete<=(elements-1) && delete>=0){
 
         for(int i=delete;i<elements-1;i++){
+
             arrays[i]=arrays[i+1];
+
         }  
 
     }else{
+
         printf("Invalid Index");
+        
     }
 
     printf("{");

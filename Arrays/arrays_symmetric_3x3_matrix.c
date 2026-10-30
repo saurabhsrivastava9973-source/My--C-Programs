@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 int main(){
@@ -16,6 +17,7 @@ int main(){
     for(int row=0;row<3;row++){
 
         for(int coloumn=row+1;coloumn<3;coloumn++){
+
             if(matrix[row][coloumn]!=matrix[coloumn][row]){
                 flag=1;
                 break;
@@ -29,11 +31,14 @@ int main(){
     }
 
     if(flag==0){
+
         printf("The Symmetric Matrix\n");
 
     }else{
+
         printf("Matrix is not symmetric\n");
     }
+
     return 0;
 
 }

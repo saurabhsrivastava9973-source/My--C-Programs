@@ -1,5 +1,7 @@
 #include<stdio.h>
+
 int main(){
+
     int elements,n,search,flag=0;
     printf("Enter a no. of elements= ");
     scanf("%d",&elements);
@@ -12,13 +14,16 @@ int main(){
         scanf("%d",&n);
         arrays[i]=n;
     }
+
     printf("\n");
+
     printf("Enter Number To Search= ");
     scanf("%d",&search);
 
     int i=0;
 
     for(i=0;i<elements;i++){
+
         if(arrays[i]==search){
             flag=1;
             break;
@@ -32,5 +37,6 @@ int main(){
         
         printf("Target Not Found In The Array\n");
     }
-return 0;
+
+    return 0;
 }

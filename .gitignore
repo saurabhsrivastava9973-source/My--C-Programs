@@ -12,7 +12,7 @@
 # macOS system and debug artifacts
 *.dSYM/
 .DS_Store
-
+Leetcode_questions
 # Common C compile extensions if used
 *.out
 *.o

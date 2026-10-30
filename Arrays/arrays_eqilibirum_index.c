@@ -17,20 +17,30 @@ int main(){
         arrays[i]=n;
         sum=sum+arrays[i]; 
     }
+
     for(int i=0;i<elements;i++){
+
         sum-=arrays[i];
+
         if(check==sum){
+
             printf("Balanced %d is answer\n",arrays[i]);
             flag=1;
+
             break;
             
-
         }else if(check!=sum){
+
             check+=arrays[i];
+
         }
+
     }
+
     if(flag==0){
+
         printf("No Equilibirum Exists\n");
+        
     }
 
     return 0; 
