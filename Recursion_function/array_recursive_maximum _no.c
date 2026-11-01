@@ -1,11 +1,11 @@
 #include<stdio.h>
-int max_element(int array[],int n){
-    if(n==1){
+int max_element(int array[],int elements){
+    if(elements==1){
         return array[0];
     }
-    int max=max_element(array,n-1);
-    if(array[n-1]>max){
-        return array[n-1];
+    int max=max_element(array,elements-1);
+    if(array[elements-1]>max){
+        return array[elements-1];
     }else{
         return max;
     }
