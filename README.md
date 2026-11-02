@@ -6,7 +6,7 @@ Welcome to my personal repository of C programming code! This repository serves 
 - **Basics:** Inputs/Outputs, Data Types, and Operators.
 - **Control Flow:** If-Else conditions, Switch cases, and Loops (While, For).
 - **Arrays & Strings:** Manipulating 1D/2D arrays and string operations.
-- **Advanced (Optional):** Pointers, Functions, and Structures.
+- **Advance:** Pointers, Functions, and Structures.
 
 ## 🚀 How to Run These Programs Locally
 
