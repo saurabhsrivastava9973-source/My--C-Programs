@@ -1,4 +1,4 @@
-/*Write A program To replace a letter from a user defined Word
+/*Write A program To replace a letter from a user defined Word & change a letter 
 to a user Defined Letter*/
 #include<stdio.h>
 
@@ -8,11 +8,11 @@ int main(){
 
     printf("Enter a Word:- ");
     scanf(" %14s",input);
-
-    printf("\nWhich Letter To Changes:- ");
+    printf("\n");
+    printf("Which Letter To Change:- ");
     scanf(" %c",&oldchar);
 
-    printf("Letter Will Changes To:- ");
+    printf("Letter Will Change To:- ");
     scanf(" %c",&newchar);
 
     int i=0;
