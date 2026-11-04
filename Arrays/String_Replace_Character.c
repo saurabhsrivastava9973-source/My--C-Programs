@@ -4,23 +4,23 @@ to a user Defined Letter*/
 
 int main(){
 
-    char input[15],oldchar,newchar;
+    char word[15],oldletter,newletter;
 
     printf("Enter a Word:- ");
-    scanf(" %14s",input);
+    scanf(" %14s",word);
     printf("\n");
     printf("Which Letter To Change:- ");
-    scanf(" %c",&oldchar);
+    scanf(" %c",&oldletter);
 
     printf("Letter Will Change To:- ");
-    scanf(" %c",&newchar);
+    scanf(" %c",&newletter);
 
     int i=0;
 
-    while(input[i]!='\0'){
+    while(word[i]!='\0'){
 
-        if(input[i]==oldchar){
-            input[i]=newchar;
+        if(word[i]==oldletter){
+            word[i]=newletter;
 
         }
 
@@ -28,7 +28,7 @@ int main(){
 
     }
 
-    printf("\nNew Word:- %s\n",input);
+    printf("\nNew Word:- %s\n",word);
 
 return 0;
 
