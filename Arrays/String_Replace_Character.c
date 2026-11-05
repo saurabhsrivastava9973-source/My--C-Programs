@@ -11,12 +11,27 @@ int main(){
     printf("\n");
     printf("Which Letter To Change:- ");
     scanf(" %c",&oldletter);
+    int i=0,flag=0;
+    while(word[i]!='\0'){
+        
+        if(word[i]==oldletter){
+            flag=1;
+            break;
+        }
+        
+        i++;
+
+    }
+    if(flag==0){
+        printf("'%c' is not present in '%s', Enter a Proper letter\n",oldletter,word);
+        return 0;
+        
+    }
 
     printf("Letter Will Change To:- ");
     scanf(" %c",&newletter);
 
-    int i=0;
-
+    i=0;
     while(word[i]!='\0'){
 
         if(word[i]==oldletter){
@@ -29,8 +44,8 @@ int main(){
     }
 
     printf("\nNew Word:- %s\n",word);
-
-return 0;
+    printf("\n");
+    return 0;
 
 }
 
