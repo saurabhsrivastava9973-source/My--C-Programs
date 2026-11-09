@@ -13,6 +13,7 @@
 *.dSYM/
 .DS_Store
 Leetcode_questions
+PROGRESS_ROADMAP.md
 # Common C compile extensions if used
 *.out
 *.o
