@@ -44,3 +44,4 @@ void titlecapital(char *s){
     
     }
 }
+
