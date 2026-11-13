@@ -65,6 +65,4 @@ int palindrome_checker(char *s){
     
     return 1;
 
-
-
 }
