@@ -21,9 +21,13 @@ int main(){
     
     printf("Enter a Word for Concatanate:- ");
     scanf("%14s",strcat);
+
     printf("Concatanate----->>\n");
+
     my_strcat(strcpy,strcat);
     printf("%s\n",strcpy);
+
+    return 0;
 }
 
 void my_strcopy(char *dest, char *src){
