@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int elements,n,temp;
+    int elements,n;
     printf("Enter a no. of Elements= ");
     scanf("%d",&elements);
     int array1[elements],array2[elements];
